@@ -1,6 +1,6 @@
 {
 	"GLOBAL": {
-		"GPL": "<div style='color: #666;'>글자로 놀자! 끄투 온라인 Copyright (C) {년도} {배포자}({이메일 등})<br>이 프로그램은 제품에 대한 어떠한 형태의 보증도 제공되지 않습니다.<br>이 프로그램은 자유 소프트웨어이며 배포 규정을 만족시키는 조건 아래 자유롭게 재배포할 수 있습니다.<br>이에 대한 자세한 사항은 본 프로그램의 구현을 담은 다음 레포지토리에서 확인하십시오: <a target='_blank' href='{이 서버의 소스 코드 위치}'>{이 서버의 소스 코드 위치}</a></div>",
+		"GPL": "<div style='color: #666;'>글자로 노는 끝말잇기! 레전드끄투 Copyright (C) 2021 정희정(kbg5113@gmail.com)<br>이 프로그램은 제품에 대한 어떠한 형태의 보증도 제공되지 않습니다.<br>이 프로그램은 자유 소프트웨어이며 배포 규정을 만족시키는 조건 아래 자유롭게 재배포할 수 있습니다.<br>이에 대한 자세한 사항은 본 프로그램의 구현을 담은 다음 레포지토리에서 확인하십시오: <a target='_blank' href='https://github.com/jeonghuijung/KKuTu'>https://github.com/jeonghuijung/KKuTu</a></div>",
 
 		"CREATOR":	"개발자 블로그",
 		"HOME":		"FA{home}",
@@ -13,7 +13,7 @@
 		"ETC_ABOUT":	"쪼롤이 뭐지",
 		"SETTING":	"설정",
 		
-		"GLOBAL_NOTICE": "클릭하여 닫기",
+		"GLOBAL_NOTICE": "클릭하여 닫기.",
 	
 		"VERSION":	"버전",
 		"LEVEL":	"레벨",
@@ -115,11 +115,7 @@
 		"withTwitter": "트위터 아이디로 로그인",
 		"withKakao": "카카오 아이디로 로그인",
 		"withDiscord": "디스코드 아이디로 로그인",
-		"withTwitch": "트위치 아이디로 로그인",
 		"withGithub": "깃허브 아이디로 로그인",
-		"withLine": "라인 아이디로 로그인",
-		"withInstagram": "인스타그램 아이디로 로그인",
-		"withSpotify": "Spotify 아이디로 로그인",
 		"login_kkutu": "글자로 놀자! 끄투 온라인을 이용하시려면 로그인을 해 주세요."
 	},
 	"loginfail": {
@@ -128,7 +124,7 @@
 		"login": "로그인"
 	},
 	"kkutu": {
-		"title": "글자로 놀자! 끄투 온라인",
+		"title": "글자로 노는 끝말잇기! 레전드끄투",
 		"version": "2.5.1",
 		
 		"meta_desc": "온라인 끝말잇기, 앞말잇기, 자음퀴즈, 십자말풀이, 타자 대결까지! 끄투에서 어휘력의 제왕이 되어 보세요.",
@@ -279,7 +275,9 @@
 		"modeEDA": "영어 단어 대결",
 		"modeKSS": "한국어 솎솎",
 		"modeESS": "영어 솎솎",
-		"modex0": "끝 두/세 자리로 시작하는 영어 어휘로 잇습니다.<br>ap<u>ple</u> → <u>ple</u>a<u>se</u> → <u>se</u>cret",
+                "modeKDA": "한국어 그림퀴즈",
+                "modeEDA": "영어 그림퀴즈",
+        	"modex0": "끝 두/세 자리로 시작하는 영어 어휘로 잇습니다.<br>ap<u>ple</u> → <u>ple</u>a<u>se</u> → <u>se</u>cret",
 		"modex1": "끝 한 자리로 시작하는 영어 어휘로 잇습니다.<br>appl<u>e</u> → <u>e</u>lephan<u>t</u> → <u>t</u>ime",
 		"modex2": "끝 한 자리로 시작하는 세 글자의 한국어 어휘로 잇습니다.<br>강아<u>지</u> → <u>지</u>렁<u>이</u> → <u>이</u>발소",
 		"modex3": "끝 한 자리로 시작하는 한국어 어휘로 잇습니다.<br>그<u>물</u> → <u>물</u>레방<u>아</u> → <u>아</u>저씨",
@@ -293,6 +291,8 @@
 		"modex11": "주어진 주제에 맞는 영어 어휘를 댑니다.",
 		"modex12": "무작위로 섞인 글자들 속에서 한국어 단어를 솎아 냅니다.",
 		"modex13": "무작위로 섞인 글자들 속에서 영어 단어를 솎아 냅니다.",
+                "modex14": "한글로 된 2자 ~ 10자의 단어를 그림으로 설명합니다.",
+                "modex15": :영어로 된 4자 ~ 10자의 단어를 그림으로 설명합니다.",
 		"numRound": "라운드 수",
 		"roundTime": "라운드 시간",
 		"players": "참여자",
@@ -339,6 +339,8 @@
 		"explSami": "세 글자 단어와 두 글자 단어를 번갈아가며 잇습니다.",
 		"optNo2": "2글자 금지",
 		"explNo2": "두 글자 단어의 사용을 막습니다.",
+                "optUnlimted": "무한정",
+                "explUnlimted": "그림퀴즈에서 나오는 단어의 길이를 무한정으로 조절합니다.",
 		"hidden": "(미공개)",
 		"pickInjeong": "주제 선택",
 		"explInjPick": "게임에서 사용할 주제를 선택하세요.",
@@ -349,6 +351,11 @@
 		"cwL": "글자",
 		"avg": "평균",
 		"afterRun": "초 후 다음 라운드",
+                "drawingLineWidth": "선 굵기",
+                "drawingColor": "선 색깔",
+                "drawingClear": "새 캔버스",
+                "wordis": "표현할 단어",
+                "themeis": "단어의 주제",
 		"kpm": "<label style='font-size: 11px;'>타/분</label>",
 		
 		"theme_IMS": "THE iDOLM@STER",
