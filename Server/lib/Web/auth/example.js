@@ -1,11 +1,12 @@
 const config = require('../../sub/auth.json');
 
 module.exports.config = {
-    strategy: require('passport-naver').Strategy, // example: naver, require strategy
-    color: '#000000', // example: #1EC800
-    fontColor: '#FFFFFF', //example: #FFFFFF
-    vendor: '', // example: naver
-    displayName: '네이버'
+    strategy: require('passport-모듈이름').Strategy, // '모듈이름'에는 모듈의 이름 (ex: naver)를 집어넣는다.
+    color: '#000000', // example: #설치할 모듈의 사이트와 비슷한 색상으로
+    fontColor: '#FFFFFF',
+    vendor: '', // example: 모듈 이름 (ex: naver)
+    displayName: 'withName'// Name 에는 모듈의 이름을 넣고, ko_KR.json에 이름을 알맞게 넣는다
+
 }
 
 module.exports.strategyConfig = { // example: naver
