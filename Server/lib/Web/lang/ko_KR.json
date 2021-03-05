@@ -104,9 +104,10 @@
 		"withKakao": "카카오 아이디로 로그인",
 		"withDiscord": "디스코드 아이디로 로그인",
 		"withGithub": "깃허브 아이디로 로그인",
+                "withLine": "라인 아이디로 로그인",
                 "withDaldalso": "달달소 아이디로 로그인",
 		"login_kkutu": "글자로 놀자! 끄투 온라인을 이용하시려면 로그인을 해 주세요.",
-		"loginLegal": "로그인이 진행되면 레전드끄투에서 모든 기능을 이용하실 수 있습니다.<br>아용약관은 현재 준비중입니다."
+		"loginLegal": "로그인이 진행되면 레전드끄투에서 모든 기능을 이용하실 수 있습니다."
 	},
 	"loginfail": {
 		"title": "로그인 실패",
@@ -236,8 +237,8 @@
 		"modeETY": "영어 타자 대결",
 		"modeKAP": "한국어 앞말잇기",
 		"modeHUN": "훈민정음",
-		"modeKDA": "한국어 단어 대결",
-		"modeEDA": "영어 단어 대결",
+		"modeKDA": "한국어 단어대결",
+		"modeEDA": "영어 단어대결",
 		"modeKSS": "한국어 솎솎",
 		"modeESS": "영어 솎솎",
                 "modeKDA": "한국어 그림퀴즈",
@@ -308,6 +309,8 @@
                 "explReturn": "사용했던 글자를 다시 사용할 수 있습니다.",
                 "optUnlimited": "무한정",
                 "explUnlimited": "그림퀴즈에서 나오는 단어의 길이를 무한정으로 조절합니다.",
+                "optShort": "짧음",
+                "explShort": "그림퀴즈에서 나오는 단어의 길이를 최대 4글자로 조절합니다.",
 		"hidden": "(미공개)",
 		"pickInjeong": "주제 선택",
 		"explInjPick": "게임에서 사용할 주제를 선택하세요.",
